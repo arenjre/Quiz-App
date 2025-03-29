@@ -1,0 +1,64 @@
+
+
+[
+    {
+      "id": 1,
+      "title": "Questions",
+      "questions": [
+        {
+          "question": "Who was the first Prime Minister of India?",
+          "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Dr. B.R. Ambedkar"],
+          "answer": "Jawaharlal Nehru"
+        },
+        {
+          "question": "Which is the longest river in India?",
+          "options": ["Ganga", "Yamuna", "Brahmaputra", "Godavari"],
+          "answer": "Ganga"
+        },
+        {
+          "question": "Which is the largest planet in our solar system?",
+          "options": ["Earth", "Mars", "Jupiter", "Venus"],
+          "answer": "Jupiter"
+        },
+        {
+          "question": "Who discovered gravity?",
+          "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+          "answer": "Isaac Newton"
+        },
+        {
+          "question": "What is the capital of India?",
+          "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+          "answer": "New Delhi"
+        },
+        {
+          "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+          "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+          "answer": "Carbon Dioxide"
+        },
+        {
+          "question": "Who is known as the Missile Man of India?",
+          "options": ["Dr. A.P.J. Abdul Kalam", "Homi Bhabha", "Vikram Sarabhai", "C.V. Raman"],
+          "answer": "Dr. A.P.J. Abdul Kalam"
+        },
+        {
+          "question": "What is the boiling point of water at sea level?",
+          "options": ["90°C", "100°C", "110°C", "120°C"],
+          "answer": "100°C"
+        },
+        {
+          "question": "Which of the following is the hardest natural substance on Earth?",
+          "options": ["Gold", "Iron", "Diamond", "Quartz"],
+          "answer": "Diamond"
+        },
+        {
+          "question": "Which Indian scientist won the Nobel Prize for Physics in 1930?",
+          "options": ["C.V. Raman", "Homi Bhabha", "Vikram Sarabhai", "Satyendra Nath Bose"],
+          "answer": "C.V. Raman"
+        }
+      ]
+    }
+
+
+
+]
+  

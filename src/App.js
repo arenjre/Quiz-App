@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import QuizList from "./components/QuizList";
+import Quiz from "./components/Quiz";
+import { Container, Typography } from "@mui/material";
 
 function App() {
+  const [selectedQuiz, setSelectedQuiz] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container sx={{ py: 4 }}>
+      <Typography variant="h4" gutterBottom>
+        Quiz App
+      </Typography>
+      {!selectedQuiz ? (
+        <QuizList onSelectQuiz={setSelectedQuiz} />
+      ) : (
+        <Quiz quiz={selectedQuiz} onBack={() => setSelectedQuiz(null)} />
+      )}
+    </Container>
   );
 }
 
